@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const greenHex = document.getElementById("greenHex");
     const redHex = document.getElementById("redHex");
 
+    
     // Función para validar tonos de verde permitidos
     function validateGreen(color) {
         const r = parseInt(color.substring(1, 3), 16);
